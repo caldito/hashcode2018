@@ -1,4 +1,4 @@
-package src.list;
+package list;
 
 public class List {
 

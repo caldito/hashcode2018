@@ -1,4 +1,4 @@
-package src.simulation;
+package simulation;
 import java.util.*;
 
 public class Car {

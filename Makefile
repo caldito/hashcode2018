@@ -1,11 +1,11 @@
 all: build
 
 build: 
-	javac src/*/*.java 
+	javac -d bin src/*/*.java 
 
 run: build
-	java src.simulation.Main
+	java -cp bin simulation.Main
 
 clean: 
-	rm src/*/*.class
+	rm -rf bin
 

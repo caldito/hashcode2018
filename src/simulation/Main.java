@@ -1,7 +1,7 @@
-package src.simulation;
+package simulation;
 
 import java.io.*;
-import src.list.*;
+import list.*;
 
 
 public class Main {

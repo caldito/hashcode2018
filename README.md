@@ -11,31 +11,14 @@ You can check the problem statement [here](statement.pdf).
 ## Usage
 The code does not have any dependencies, it only uses the standard Java libraries. Runs on Java 8 and newer versions.
 
-It can be built with `java` and `javac` commands or using the Makefile provided (which only wraps these commands).
-
-Build the soures with:
-```
-javac src/*/*.java
-```
-or
-```
-make
-```
+It can be built and run easily with javac and java, but a Makefile is provided to make it even easier.
 
 To run the code:
-```
-java src.simulation.Main
-```
-or
 ```
 make run
 ```
 
 To clean the build files:
-```
-rm src/*/*.class
-```
-or
 ```
 make clean
 ```
