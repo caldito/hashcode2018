@@ -1,4 +1,4 @@
-package list;
+package src.list;
 
 public class SNode {
 

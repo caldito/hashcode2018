@@ -1,14 +1,14 @@
-package list;
+package src.list;
 
 public class List {
 
-	//Atributos
+	// Attributes
 	public SNode first;
 	int size;
 	int ride_index = -1;
 	
 	
-	//Métodos
+	// Methods
 	public boolean isEmpty() {
 		return (first == null);
 	}

@@ -1,10 +1,10 @@
-package simulacion;
+package src.simulacion;
 
 //import java.io.BufferedReader;
 import java.io.*;
 //import java.io.FileReader;
-import list.List;
-import list.SNode;
+import src.list.List;
+import src.list.SNode;
 //import java.util.Scanner;
 
 
@@ -160,7 +160,7 @@ public class Main {
 			System.out.println();
 			System.out.println(ruta);
 
-			//Creación lista de viajes
+			//Creacion lista de viajes
 			List lista = generateList(ruta);
 
 			//Generacion mapa
@@ -182,7 +182,7 @@ public class Main {
 				if (lista.isEmpty()) {
 					System.out.println("Puntos: " + puntos);
 					totalPuntos += puntos;
-					generate_output("out/" + ruta.charAt(9) + ".txt", coches);
+					generate_output("out/" + ruta.charAt(3) + ".txt", coches);
 				}
 				t++;
 			}

@@ -1,4 +1,4 @@
-package simulacion;
+package src.simulacion;
 import java.util.*;
 
 public class Coche {
