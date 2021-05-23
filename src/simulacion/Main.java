@@ -142,19 +142,19 @@ public class Main {
 		for (int archivo = 0; archivo < 5; archivo++) {
 			switch (archivo) {
 				case 0:
-					ruta = "entradas/a_example.in";
+					ruta = "in/a_example.in";
 					break;
 				case 1:
-					ruta = "entradas/b_should_be_easy.in";
+					ruta = "in/b_should_be_easy.in";
 					break;
 				case 2:
-					ruta = "entradas/c_no_hurry.in";
+					ruta = "in/c_no_hurry.in";
 					break;
 				case 3:
-					ruta = "entradas/d_metropolis.in";
+					ruta = "in/d_metropolis.in";
 					break;
 				case 4:
-					ruta = "entradas/e_high_bonus.in";
+					ruta = "in/e_high_bonus.in";
 					break;
 			}
 			System.out.println();
@@ -182,7 +182,7 @@ public class Main {
 				if (lista.isEmpty()) {
 					System.out.println("Puntos: " + puntos);
 					totalPuntos += puntos;
-					generate_output("salidas/" + ruta.charAt(9) + ".txt", coches);
+					generate_output("out/" + ruta.charAt(9) + ".txt", coches);
 				}
 				t++;
 			}
