@@ -8,21 +8,36 @@ My solution for the Google Hash Code 2018 qualification round problem. It consis
 
 You can check the problem statement [here](statement.pdf).
 
-## How to run
+## Usage
+The code does not have any dependencies, it only uses the standard Java libraries. Runs on Java 8 and newer versions.
 
-Build with:
+It can be built with `java` and `javac` commands or using the Makefile provided (which only wraps these commands).
+
+Build the soures with:
 ```
 javac src/*/*.java
 ```
+or
+```
+make
+```
 
-Once the code is built it runs with the command:
+To run the code:
 ```
 java src.simulation.Main
+```
+or
+```
+make run
 ```
 
 To clean the build files:
 ```
 rm src/*/*.class
+```
+or
+```
+make clean
 ```
 
 ## Scores
