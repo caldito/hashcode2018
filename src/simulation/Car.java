@@ -1,16 +1,15 @@
-package src.simulacion;
+package src.simulation;
 import java.util.*;
 
-public class Coche {
+public class Car {
 	int x;// = 0;
 	int y;// = 0;
 	int arriving_time = -1;
 	ArrayList rides = new ArrayList();
 
 
-	public Coche (){
+	public Car (){
 
 	}
-	
-	
 }
+

@@ -10,4 +10,6 @@ public class SNode {
 		this.ride = ride;
 		this.ride_index = ride_index;
 	}
+
 }
+

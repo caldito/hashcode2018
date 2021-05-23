@@ -50,7 +50,6 @@ public class List {
 		}	
 	}
 	
-	
 	public SNode getAt(int index) {
 		if (index<0 || index>=size) {
 			System.out.println("SList: getAt index out of bounds");
@@ -66,7 +65,6 @@ public class List {
 			return result;
 		}
 	}
-
 	
 	public void removeLast() {
 		if(size == 1) {
@@ -82,7 +80,6 @@ public class List {
 		}
 		
 	}
-
 
 	public void removeAt(int index) {
 		if (index<0 || index>=size) {
@@ -103,15 +100,13 @@ public class List {
 			}
 		}
 	}
-
 	
 	public SNode getFirst() {
 		return first;
 	}
-
 	
 	
-	//Main
+	// Main
 	public static void main(String[] args) {
 		List list = new List();
 		int[]arr = {1,2,3};
@@ -121,9 +116,8 @@ public class List {
 		list.removeFirst();
 		list.removeAt(0);
 		
-		System.out.println(list.getAt(0).ride_index);
-		
-	
+		System.out.println(list.getAt(0).ride_index);	
 	}
 
 }
+
